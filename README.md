@@ -1,6 +1,5 @@
 ---
 author: Dennis Lyubyvy, dennis.lyubyvy@gmail.com
-layout: post
 description: ErlangR set of functions discription
 ---
 # ErlangR
@@ -9,56 +8,56 @@ description: ErlangR set of functions discription
 
 ####ErlangB 
 Calculates the probability that trunks will be blocked
-arrival_rate - number of calls per hour
-av_call_duration_sec - duration of calls in seconds
-n_trunks - number of trunks
+arrival_rate: number of calls per hour
+av_call_duration_sec: duration of calls in seconds
+n_trunks: number of trunks
     
 ####Trunks 
- Calculates nesessary number of trunks
-    
-arrival_rate - number of calls per hour
-av_call_duration_sec - duration of calls in seconds
+Calculates nesessary number of trunks
+
+arrival_rate: number of calls per hour
+av_call_duration_sec: duration of calls in seconds
     
  
 ####ErlangC function calculates the probability of queue with initial parameters
     
-arrival_rate - number of calls per interval
-av_call_duration_sec - average duration of calls in seconds
-n_agents - number of agents
+arrival_rate: number of calls per interval
+av_call_duration_sec: average duration of calls in seconds
+n_agents: number of agents
 
 ####ASA 
 Calculates Average Speed of Answer in seconds
     
-arrival_rate - number of calls per interval
-av_call_duration_sec - average duration of calls in seconds
-n_agents - number of agents
+arrival_rate: number of calls per interval
+av_call_duration_sec: average duration of calls in seconds
+n_agents: number of agents
     
 ####SL
 Calculates average speed of answer in seconds
     
-arrival_rate - number of calls per interval
-av_call_duration_sec - average duration of calls in seconds
-n_agents - number of agents
+arrival_rate: number of calls per interval
+av_call_duration_sec: average duration of calls in seconds
+n_agents: number of agents
 
 ####Agents
 Calculates nesessary number of agents to fit the service level requirements
     
-arrival_rate - number of calls per interval
-av_call_duration_sec - average duration of calls in seconds
-wrap_up_time_sec - time in seconds nesessary to wrap up the call
-max_waiting_time_sec - maximum allowed time to wait in queue, seconds
-sl_target - target service level (% of calls that should be answered within max_waiting_time_sec time)
+arrival_rate: number of calls per interval
+av_call_duration_sec: average duration of calls in seconds
+wrap_up_time_sec: time in seconds nesessary to wrap up the call
+max_waiting_time_sec: maximum allowed time to wait in queue, seconds
+sl_target: target service level (% of calls that should be answered within max_waiting_time_sec time)
     
 
 ####Agents_to_schedule
 Calculates minimum number of agents nesessary to meet the service level requirements
     
-arrival_rate - number of calls per interval
-av_call_duration_sec - average duration of calls in seconds
-wrap_up_time_sec - time in seconds nesessary to wrap up the call
-max_waiting_time_sec - maximum allowed time to wait in queue, seconds
-sl_target - target service level (% of calls that should be answered within max_waiting_time_sec time)
-average break per agent per hour in minutes
+arrival_rate: number of calls per interval
+av_call_duration_sec: average duration of calls in seconds
+wrap_up_time_sec: time in seconds nesessary to wrap up the call
+max_waiting_time_sec: maximum allowed time to wait in queue, seconds
+sl_target: target service level (% of calls that should be answered within max_waiting_time_sec time)
+break_time_min_per_hour: average break per agent per hour in minutes
     
 
 ####Usage examples
