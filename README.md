@@ -19,7 +19,8 @@ arrival_rate: number of calls per hour
 av_call_duration_sec: duration of calls in seconds
     
  
-####ErlangC function calculates the probability of queue with initial parameters
+####ErlangC 
+Calculates the probability of queue with initial parameters
     
 arrival_rate: number of calls per interval
 av_call_duration_sec: average duration of calls in seconds
