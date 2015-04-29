@@ -1,6 +1,7 @@
 ---
 author: Dennis Lyubyvy, dennis.lyubyvy@gmail.com
-description: ErlangR set of functions discription
+description: ErlangR set of functions to calculate call center resources
+email: dvl2110@columbia.edu
 ---
 # ErlangR
 
